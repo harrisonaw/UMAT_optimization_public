@@ -1,3 +1,9 @@
+# Code description
+## UMAT_optimization_public/
+  1. UMAT_U2_OPTIMIZATION/
+        - STEP1_dataProcessing_cross_loading.m 
+        `This matlab script pre-process the experimental data in terms of Effective plastic strain and true stress.`
+
 # UMAT_OPTIMIZATION
 The optimization code for
   1. Anisotropic Yield function
@@ -12,12 +18,6 @@ The optimization code for
         + Any other anisotropic hardening models
   3. Dislocation hardening model
         - RGBV (K. Kitayama et al.)
-
-# Code description
-  1.  UMAT_optimization_public/
-      A. UMAT_U2_OPTIMIZATION/
-          I. STEP1_dataProcessing_cross_loading.m 
-              - This matlab script pre-process the experimental data in terms of Effective plastic strain and true stress.
 
 # Available deformation mode
   1. Uniaxial tension
