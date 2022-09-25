@@ -3,9 +3,9 @@
 ### Code
   1. STEP1_dataProcessing_cross_loading.m <br />
   `This matlab script pre-process the experimental data in terms of Effective plastic strain and true stress.`
-        - /Data/EDDQ-TDT-RD45T.csv to /Data/Output/EDDQ-TDT-RD45T.mat
+        - /Data/EDDQ-TDT-RD45T.csv to /Data/Output/EDDQ-TDT-RD45T.mat <br />
         `Stress-strain data for cross loading. 1st load = direction for pre-strain. 2nd load = direction for second-loading.`
-  2. STEP1_dataProcessing_YLD.m 
+  2. STEP1_dataProcessing_YLD.m <br />
     `This matlab script pre-process the experimental data in terms of Effective plastic strain and true stress.`
 
 # UMAT_OPTIMIZATION
