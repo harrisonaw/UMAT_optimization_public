@@ -5,8 +5,14 @@
   `This matlab script pre-process the experimental data in terms of Effective plastic strain and true stress.`
         - /Data/EDDQ-TDT-RD45T.csv to /Data/Output/EDDQ-TDT-RD45T.mat <br />
         `Stress-strain data for cross loading. 1st load = direction for pre-strain. 2nd load = direction for second-loading.`
+  2. STEP1_dataProcessing_cyclic_loading.m <br />
+  `This matlab script process the anisotropy of a material in terms of (1) Normlaized flow stress and (2) R-value`
+        - /Data/AA6022_EXP_9CYCLE.csv to /Data/Output/AA6022_EXP_9CYCLE.mat <br />
+        `Stress-strain data for cross loading. 1st load = direction for pre-strain. 2nd load = direction for second-loading.`
   2. STEP1_dataProcessing_YLD.m <br />
     `This matlab script pre-process the experimental data in terms of Effective plastic strain and true stress.`
+        - /Data/AA2090_DATA.csv to /Data/Output/AA20290_DATA.mat
+        `Angle (+ biaxial angle), Normalized flow stress, and R-Value for 2090 test`
 
 # UMAT_OPTIMIZATION
 The optimization code for
